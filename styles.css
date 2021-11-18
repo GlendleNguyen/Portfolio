@@ -1,6 +1,11 @@
+.body {
+    margin: 0;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-family: 'Roboto', arial;
 }
 
 .headertop {
@@ -21,16 +26,17 @@
     color: #F9FAF8;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Roboto', arial;
 }
 
 .bannerleft {
-    margin-left: 75px;
+    margin-left: 90px;
 }
 
 .banner img{
     width: 300px;
     height: 150px;
-    margin-right: 85px;
+    margin-right: 95px;
 }
 
 .content {
@@ -45,15 +51,19 @@
     background-color: #E5E7EB;
     text-align: center;
     margin: 0;
-    padding: 10px;
+    border: 0;
+    padding: 15px;
+    font-family: 'Roboto', arial;
 }
 
 .footer {
     background-color: #1F2937;
-    padding: 1px;
+    border: 0;
     margin: 0;
+    padding: 1px;
     color: #fff;
     text-align: center;
+    font-family: 'Roboto', arial;
 }
 
 ul {
