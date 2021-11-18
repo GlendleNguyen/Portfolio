@@ -39,6 +39,18 @@
     align-items: center;
 }
 
+.inspire {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     display: flex;
