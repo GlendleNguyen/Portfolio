@@ -1,72 +1,29 @@
-.body {
-    margin: 0;
-}
-
-.header {
-    background-color: #1F2937;
-    color: #F9FAF8;
+body {
     font-family: 'Roboto', arial;
 }
 
-.headertop {
+/********** HEADER ITEMS **********/
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #1F2937;
+    border-style: solid;
+    border-color: red;
+    color: #F9FAF8;
 }
 
 .headertext {
     font-size: 40px;
     font-weight: bold;
     margin-left: 20px;
+    border-style: solid;
+    border-color: red;
 }
 
-.banner {
-    display: flex;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Roboto', arial;
-}
-
-.bannerleft {
-    margin-left: 90px;
-}
-
-.banner img{
-    width: 300px;
-    height: 150px;
-    margin-right: 95px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-}
-
-.inspire {
-    color: #1F2937;
-    background-color: #E5E7EB;
-    text-align: center;
-    margin: 0;
-    border: 0;
-    padding: 15px;
-    font-family: 'Roboto', arial;
-}
-
-.footer {
-    background-color: #1F2937;
-    border: 0;
-    margin: 0;
-    padding: 1px;
-    color: #fff;
-    text-align: center;
-    font-family: 'Roboto', arial;
-}
-
-ul {
+.headerlinks {
+    border-style: solid;
+    border-color: red;
     list-style-type: none;
     display: flex;
     gap: 16px;
@@ -74,6 +31,37 @@ ul {
     padding: 8px;
     margin-right: 20px;
     font-size: 20px;
+}
+/********** TITLE ITEMS **********/
+.title {
+    background-color: #1F2937;
+    border-style: solid;
+    border-color: red;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titleheader {
+    border-style: solid;
+    border-color: red;
+}
+
+.titletext {
+    border-style: solid;
+    border-color: red;
+}
+
+.titleright {
+    border-style: solid;
+    border-color: blue;
+    display: inline-flex;
+}
+
+.titleright img {
+    width: 300px;
+    height: 200px;
 }
 
 a {
