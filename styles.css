@@ -32,6 +32,7 @@ body {
     margin-right: 20px;
     font-size: 20px;
 }
+
 /********** TITLE ITEMS **********/
 .title {
     background-color: #1F2937;
@@ -64,7 +65,21 @@ body {
     height: 200px;
 }
 
+/********** CONTENT **********/
+.personalprojects {
+    border-style: solid;
+    border-color: red;
+}
+
+.projects {
+    display: flex;
+}
+
 a {
     text-decoration: none;
     color: #3882F6;
+}
+
+.projects img {
+    border: 5px solid #555;
 }
