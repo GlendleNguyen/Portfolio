@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', arial;
 }
 
+img {max-width:100%;}
+
 /********** HEADER ITEMS **********/
 .header {
     display: flex;
