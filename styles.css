@@ -87,10 +87,11 @@ img {
     text-align: center;
 }
 
-a {
+.headerlinks a {
     text-decoration: none;
     color: #3882F6;
 }
+
 
 h5 {
     text-align: center;
